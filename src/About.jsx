@@ -25,7 +25,7 @@ function About() {
       </div>
 
       <div className="text-lg mb-20 col-span-2">
-        <p className="font-semibold">
+        <p className="font-semibold mb-6">
           Here are the technologies I've been working with:
         </p>
         <div>
