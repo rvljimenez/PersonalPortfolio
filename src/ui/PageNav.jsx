@@ -3,9 +3,9 @@ import NameLogo from "../ui/NameLogo";
 import { GrProjects } from "react-icons/gr";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
 import { IoDocumentTextSharp } from "react-icons/io5";
-import rvlj from "./rvlj.pdf";
+import rvljimenez from "./rvljimenez.pdf";
 
-const linkhref = rvlj;
+const linkhref = rvljimenez;
 
 function PageNav() {
   return (
