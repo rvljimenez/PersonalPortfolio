@@ -1,8 +1,11 @@
 import { NavLink } from "react-router-dom";
-import NameLogo from "../NameLogo";
+import NameLogo from "../ui/NameLogo";
 import { GrProjects } from "react-icons/gr";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
 import { IoDocumentTextSharp } from "react-icons/io5";
+import rvlj from "./rvlj.pdf";
+
+const linkhref = rvlj;
 
 function PageNav() {
   return (
@@ -24,7 +27,10 @@ function PageNav() {
           >
             <MdOutlineQuestionAnswer /> About
           </NavLink>
-          <a className="flex gap-2 items-center hover:underline">
+          <a
+            className="flex gap-2 items-center hover:underline"
+            href={linkhref}
+          >
             <IoDocumentTextSharp />
             Resume
           </a>

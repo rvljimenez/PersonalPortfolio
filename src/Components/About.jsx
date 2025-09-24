@@ -1,6 +1,6 @@
 import PageNav from "../ui/PageNav";
 import Skills from "../data/Skills";
-import image from "./image.jpg";
+import image from "../data/image.jpg";
 
 function About() {
   return (
