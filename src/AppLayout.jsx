@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import PageNav from "./PageNav";
-import Footer from "./Footer";
+import PageNav from "./ui/PageNav";
+import Footer from "./ui/Footer";
 
 function AppLayout() {
   return (

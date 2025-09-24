@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import NameLogo from "./NameLogo";
+import NameLogo from "../NameLogo";
 import { GrProjects } from "react-icons/gr";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
 import { IoDocumentTextSharp } from "react-icons/io5";

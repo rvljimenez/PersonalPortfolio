@@ -1,5 +1,5 @@
 import ProjectsData from "./ProjectsData";
-import data from "./data";
+import data from "../data/data";
 
 function Projects() {
   const portfolio = data;

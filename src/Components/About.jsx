@@ -1,5 +1,5 @@
-import PageNav from "./PageNav";
-import Skills from "./Skills";
+import PageNav from "../ui/PageNav";
+import Skills from "../data/Skills";
 import image from "./image.jpg";
 
 function About() {
