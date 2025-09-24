@@ -6,10 +6,10 @@ function AppLayout() {
   return (
     <div className=" grid h-screen grid-rows-[auto_1fr_auto]">
       <PageNav />
-      <main className="bg-blue-50 py-10 mt-20">
+      <main className=" py-10 mt-20">
         <Outlet />
       </main>
-      <Footer className="bg-amber-300"></Footer>
+      <Footer></Footer>
     </div>
   );
 }
