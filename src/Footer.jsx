@@ -3,13 +3,17 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 
 function Footer() {
   return (
-    <div className="flex flex-col mt-[-100px] justify-center items-center mb-10">
-      <p className="font-bold text-4xl uppercase mb-4">send me an email</p>
-      <p className="text-2xl uppercase w-1/2 text-center">
-        I would love to hear from you. Whether it's a project, job opportunity,
-        or just a chat. Feel free to contact me.
+    <div className="flex flex-col items-center justify-center p-10 mx-50">
+      <p className="text-4xl font-bold mb-5">Send Me An Email</p>
+      <p className="text-center">
+        I’d genuinely love to hear from you—whether you’re reaching out about a
+        potential project, a job opportunity, a creative collaboration, or
+        simply want to have a meaningful conversation.don’t hesitate to get in
+        touch. Your message is always welcome, and I look forward to hearing
+        what’s on your mind. Feel free to reach out anytime!`
       </p>
-      <div className="animate-pulse">
+
+      <div className="flex animate-pulse">
         <div className="flex mt-6 gap-4 text-lg">
           <div className="flex items-center gap-2 bg-black text-white px-3.5 py-2 rounded-lg">
             <IoLogoGithub />

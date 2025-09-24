@@ -1,3 +1,4 @@
+import PageNav from "./PageNav";
 import Skills from "./Skills";
 import image from "./image.jpg";
 
