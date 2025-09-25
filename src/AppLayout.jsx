@@ -4,7 +4,7 @@ import Footer from "./ui/Footer";
 
 function AppLayout() {
   return (
-    <div className=" grid h-screen grid-rows-[auto_1fr_auto]">
+    <div className=" grid h-screen grid-rows-[aut0_1fr_1fr]">
       <PageNav />
       <main className=" py-10 mt-20">
         <Outlet />

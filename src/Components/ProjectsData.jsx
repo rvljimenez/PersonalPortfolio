@@ -6,30 +6,28 @@ function ProjectsData({ portfolio }) {
   return (
     <ul
       key={portfolio.title}
-      className="flex flex-col hover:scale-105 duration-300"
+      className="grid grid-rows-[auto_1fr_auto_auto] hover:scale-105 duration-300"
     >
-      <div className="text-lg font-bold h-12">{title}</div>
-      <div className="text-sm h-40">{description}</div>
-      <div className="text-gray-400 text-sm">{type}</div>
+      <div className="text-lg my-2 font-bold h-12">{title}</div>
+      <div className="text-sm my-2 h-40">{description}</div>
+      <div className="text-gray-400 my-2 text-sm">{type}</div>
 
-      <div className="flex flex-col gap-5">
-        <div className="flex gap-5">
-          <div>
-            <a
-              href={demoLink}
-              className="flex items-center gap-2 hover:underline"
-            >
-              <HiComputerDesktop /> Demo
-            </a>
-          </div>
-          <div>
-            <a
-              href={repositoryLink}
-              className=" flex items-center gap-2 hover:underline"
-            >
-              <IoLogoGithub /> Repository
-            </a>
-          </div>
+      <div className="grid grid-cols-2 gap-5">
+        <div>
+          <a
+            href={demoLink}
+            className="flex items-center gap-2 hover:underline"
+          >
+            <HiComputerDesktop /> Demo
+          </a>
+        </div>
+        <div>
+          <a
+            href={repositoryLink}
+            className=" flex items-center gap-2 hover:underline"
+          >
+            <IoLogoGithub /> Repository
+          </a>
         </div>
       </div>
     </ul>
