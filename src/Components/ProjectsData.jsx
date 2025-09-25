@@ -6,10 +6,10 @@ function ProjectsData({ portfolio }) {
   return (
     <ul
       key={portfolio.title}
-      className="grid grid-rows-[auto_1fr_auto_auto] hover:scale-105 duration-300"
+      className="grid grid-rows-[auto_1fr_auto_auto] hover:scale-105 duration-30 "
     >
       <div className="text-lg my-2 font-bold h-12">{title}</div>
-      <div className="text-sm my-2 h-40">{description}</div>
+      <div className="text-base my-2">{description}</div>
       <div className="text-gray-400 my-2 text-sm">{type}</div>
 
       <div className="grid grid-cols-2 gap-5">

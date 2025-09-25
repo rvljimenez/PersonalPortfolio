@@ -3,7 +3,7 @@ import { HiEnvelope } from "react-icons/hi2";
 
 function Home() {
   return (
-    <div className="h-148 grid px-50 py-5 ">
+    <div className="grid px-50 py-5 ">
       <div>
         <div className="font-bold block text-6xl ">
           Hello, I am

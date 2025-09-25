@@ -22,7 +22,7 @@ const data = [
   },
   {
     title: "WorldWise",
-    description: "You can't start this without logging in. This is a Web Application where you can easily schedule a trip or at least an itinerary for yourself. You can also list all the memories you had in a certain city. You also use it on the spot to track what you've done. In short all the the things you will do or you've done in a trip can be listed in here.",
+    description: "You can't start this without logging in. This is a Web Application where you can easily schedule a trip or at least an itinerary for yourself. You can also list all the memories you had in a certain city.",
     demoLink: "https://worldwise-ronald-vincent-jimenezs-projects.vercel.app/",
     repositoryLink: "https://github.com/rvljimenez/Worldwise",
     type: ['#Html', '#Css', '#JavaScript', '#React']

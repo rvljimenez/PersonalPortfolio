@@ -4,7 +4,7 @@ import image from "../data/image.jpg";
 
 function About() {
   return (
-    <div className="h-screen px-50">
+    <div className="px-50">
       <div className="font-bold text-6xl mb-12">About Me</div>
       <div className="grid grid-cols-[1fr_1fr_1fr] align-middle">
         <div className="flex flex-col gap-10 justify-evenly text-lg mb-12 col-span-2 mr-30">
@@ -21,7 +21,10 @@ function About() {
           </p>
         </div>
         <div>
-          <img src={image} className="h-50 rounded-[50%] w-auto" />
+          <img
+            src={image}
+            className="hidden sm:block  h-50 rounded-[50%] w-auto"
+          />
         </div>
       </div>
 
