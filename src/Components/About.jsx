@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="h-screen px-50">
       <div className="font-bold text-6xl mb-12">About Me</div>
-      <div className="grid grid-cols-3 align-middle">
+      <div className="grid grid-cols-[1fr_1fr_1fr] align-middle">
         <div className="flex flex-col gap-10 justify-evenly text-lg mb-12 col-span-2 mr-30">
           <p>
             Hello! My name is Ronald Jimenez, and I am a front-end developer
